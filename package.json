@@ -1,0 +1,46 @@
+{
+  "name": "url-meta-scraper",
+  "version": "1.0.1",
+  "description": "Get meta data from any url (http/https) and support group by property",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaht/url-meta.git"
+  },
+  "keywords": [
+    "url",
+    "node",
+    "scraper",
+    "url-meta",
+    "url-metadata",
+    "meta",
+    "meta-tags",
+    "metadata",
+    "parser",
+    "html-parser"
+  ],
+  "author": "HuynhKha <huynhkha8295@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khaht/url-meta/issues"
+  },
+  "homepage": "https://github.com/khaht/url-meta#readme",
+  "dependencies": {
+    "node-html-parser": "^5.3.3",
+    "q": "^1.5.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/q": "^1.5.5",
+    "@types/request": "^2.48.8",
+    "tslib": "^2.4.0"
+  }
+}
