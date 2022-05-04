@@ -1,6 +1,6 @@
 {
   "name": "url-meta-scraper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get meta data from any url (http/https) and support group by property",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,8 +16,13 @@
     "url": "git+https://github.com/khaht/url-meta.git"
   },
   "keywords": [
+    "meta-tags",
+    "metatags",
+    "open-graph",
+    "html-scraper",
+    "metadata-extraction",
     "url",
-    "node",
+    "url-scraper",
     "scraper",
     "url-meta",
     "url-metadata",

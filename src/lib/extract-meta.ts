@@ -15,7 +15,9 @@ export const readMetaValue = (metas: HTMLElement[]): ParserResponse => {
       if (!result[k[0]]) {
         result[k[0]] = {};
       }
-      Object.assign(result[k[0]], { [k[1]]: metaData[key] });
+      const item: { [key: string]: any } =
+        k.length > 2 ? { [`${k[1]}:${k[2]}`]: metaData[key] } : { [k[1]]: metaData[key] };
+      Object.assign(result[k[0]], item);
     }
   });
   return result;
